@@ -1,0 +1,72 @@
+/* ─── Think Block Cleaner ─── */
+
+.think-cleaner-settings {
+    margin-top: 10px;
+}
+
+.think-cleaner-desc {
+    font-size: 0.9em;
+    color: var(--SmartThemeBodyColor);
+    opacity: 0.8;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.think-cleaner-desc code {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.think-cleaner-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.think-cleaner-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.think-cleaner-tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.think-cleaner-tag-label {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 3px;
+    font-size: 0.85em;
+}
+
+.think-cleaner-tag-label span {
+    opacity: 0.7;
+}
+
+.think-cleaner-tag-label input.text_pole {
+    font-family: monospace;
+    font-size: 0.95em;
+}
+
+.think-cleaner-info {
+    font-size: 0.85em;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-top: 6px;
+    min-height: 1.2em;
+}
+
+.think-cleaner-info--clean {
+    color: #4caf50;
+}
+
+.think-cleaner-info--dirty {
+    color: #ff9800;
+}
