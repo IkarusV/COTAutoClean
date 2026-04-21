@@ -207,7 +207,7 @@ function createSettingsUI() {
     <div id="think-cleaner-settings" class="think-cleaner-settings">
         <div class="inline-drawer">
             <div class="inline-drawer-toggle inline-drawer-header">
-                <b>Think Block Cleaner</b>
+                <b>COTAutoClean</b>
                 <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
             </div>
             <div class="inline-drawer-content">
@@ -285,13 +285,13 @@ function createSettingsUI() {
                 infoEl.textContent = "✅ No <think> blocks found in any messages.";
                 infoEl.className = "think-cleaner-info think-cleaner-info--clean";
             }
-            toastr.info("No think blocks found.", "Think Cleaner");
+            toastr.info("No think blocks found.", "COTAutoClean");
         } else {
             if (infoEl) {
                 infoEl.textContent = `🧹 Cleaned ${count} message${count === 1 ? "" : "s"}.`;
                 infoEl.className = "think-cleaner-info think-cleaner-info--dirty";
             }
-            toastr.success(`Cleaned ${count} message${count === 1 ? "" : "s"}.`, "Think Cleaner");
+            toastr.success(`Cleaned ${count} message${count === 1 ? "" : "s"}.`, "COTAutoClean");
         }
     });
 }
